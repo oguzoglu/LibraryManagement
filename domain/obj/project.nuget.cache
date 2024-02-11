@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "n+6e4LAm59WuwZOWiOSGf5/IOXsJIHIZ17xw9c+Q+STYw8d6JNZAIaIoCzstVeQ5t48EcYtxZ/6SCnmAl/Q6Bw==",
+  "success": true,
+  "projectFilePath": "E:\\BookLib\\domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Omer\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Omer\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Omer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
