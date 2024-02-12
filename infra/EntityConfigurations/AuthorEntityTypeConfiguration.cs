@@ -16,14 +16,6 @@ public class AuthorEntityTypeConfiguration: IEntityTypeConfiguration<Author>
 			x.Property(e => e.FirstName).HasColumnName("first_name");
 			x.Property(e => e.LastName).HasColumnName("last_name");
 		});
-		//builder.OwnsOne(product => product.AuthorName,
-		//  navigationBuilder =>
-		//  {
-		//	  navigationBuilder.Property(n => n.FirstName)
-		//					   .HasColumnName("first_name");
-		//	  navigationBuilder.Property(n => n.LastName)
-		//					   .HasColumnName("first_name");
-		//  });
 		builder.HasMany(a => a.Books)
             .WithOne(b => b.Author)
             .HasForeignKey(b => b.AuthorId)
