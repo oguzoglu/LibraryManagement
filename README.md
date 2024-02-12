@@ -14,7 +14,7 @@ To use this application, you need to have the following dependencies installed:
 - NLog
 - PostgreSql
 
-You can install them using the NuGet Package Manager or the dotnet CLI. For example:
+You can install them using the NuGet Package Manager or the dotnet CLI.
 
 
 ### Migrations
